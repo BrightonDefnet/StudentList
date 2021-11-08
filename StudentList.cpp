@@ -50,7 +50,7 @@ void printStudent(vector<student*> reg)
 }
 
 //remove a student from the list
-void deleteStudent(vector<student*> &reg, string studentID)
+void deleteStudent(vector<student*> reg, string studentID)
 {
     vector<student*> profile;
     vector<student*>::iterator itr = reg.begin();
